@@ -56,15 +56,39 @@
 		2038AC45283A48A200E6106E /* ByteCoins */ = {
 			isa = PBXGroup;
 			children = (
+				2038AC5C283A4B0200E6106E /* Model */,
+				2038AC5D283A4B0A00E6106E /* View */,
+				2038AC5E283A4B1200E6106E /* Controllers */,
 				2038AC46283A48A200E6106E /* AppDelegate.swift */,
 				2038AC48283A48A200E6106E /* SceneDelegate.swift */,
-				2038AC4A283A48A200E6106E /* ViewController.swift */,
-				2038AC4C283A48A200E6106E /* Main.storyboard */,
 				2038AC4F283A48A300E6106E /* Assets.xcassets */,
 				2038AC51283A48A300E6106E /* LaunchScreen.storyboard */,
 				2038AC54283A48A300E6106E /* Info.plist */,
 			);
 			path = ByteCoins;
+			sourceTree = "<group>";
+		};
+		2038AC5C283A4B0200E6106E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2038AC5D283A4B0A00E6106E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2038AC4C283A48A200E6106E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2038AC5E283A4B1200E6106E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2038AC4A283A48A200E6106E /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
